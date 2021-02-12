@@ -8,6 +8,9 @@ package:
 source:
   url: http://www.infradead.org/~tgr/libnl/files/libnl-{{ version }}.tar.gz
   sha256: 4f80c21fe5bbcdde6e72b59b4f98306063a41421f909887c34e58d93e746d063
+  patches:
+    - libnl-1.0-pre8-more-build-output.patch
+    - libnl-1.1-doc-inlinesrc.patch
 
 build:
   skip: True  # [win or osx]
