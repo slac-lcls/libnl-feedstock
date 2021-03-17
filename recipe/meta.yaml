@@ -14,7 +14,7 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 3
+  number: 4
 
 requirements:
   requirements:
@@ -45,6 +45,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - valmar
+    - lcls-ii
     - chrisvam
 
