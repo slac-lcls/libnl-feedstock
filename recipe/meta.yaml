@@ -14,7 +14,7 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 7
+  number: 8
 
 requirements:
   requirements:
