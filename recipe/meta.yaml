@@ -7,14 +7,14 @@ package:
 
 source:
   url: http://www.infradead.org/~tgr/libnl/files/libnl-{{ version }}.tar.gz
-  sha256: 4f80c21fe5bbcdde6e72b59b4f98306063a41421f909887c34e58d93e746d063
+  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
   patches:
     - libnl-1.0-pre8-more-build-output.patch
     - libnl-1.1-doc-inlinesrc.patch
 
 build:
   skip: True  # [win or osx]
-  number: 18
+  number: 19
 
 requirements:
   requirements:
